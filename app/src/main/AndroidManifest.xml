@@ -13,14 +13,28 @@
         android:theme="@style/Theme.FlowAPICeezyCode"
         tools:targetApi="31">
         <activity
-            android:name=".ExceptionHandlingActivity1"
+            android:name=".operators.OperatorsActivity4"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".FlowCoroutineContextActivity1"
+            android:name=".SharedFlow.SharedFlowActivity1"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".FlowCoroutineContext.ExceptionHandlingActivity1"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".FlowCoroutineContext.FlowCoroutineContextActivity1"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -76,7 +90,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".operators.OperatorsActivity4"
+            android:name=".SharedFlow.StateFlowActivity1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
